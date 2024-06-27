@@ -23,3 +23,7 @@ Primer Proyecto de Desarrollo Web Front-End
 
 - Run [npm install] in "Flowermart/flowermart"
 - Run [ng serve] in "Flowermart/flowermart"
+
+## Documentacion API Backend
+
+- http://localhost:8080/swagger-ui.html
