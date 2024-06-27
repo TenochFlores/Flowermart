@@ -1,0 +1,16 @@
+Instrucciones:
+
+1. Crear una base de datos (como en mysql) y ejecutar en orden los scripts de db-dwb.
+
+2. Abrir el archivo application.properties de api-dwb\config\dwf-api y modificar los datos de conexión por los de la base de datos creada en el punto 1
+  - línea 1: sustituir dwb por el nombre de tu base de datos
+  - línea 2: sustituir root por tu nombre de usuario
+  - línea 3: sustituir pass por la contraseña de tu usuario
+  - línea 4: si se utilizó un manejador distinto a mysql, indicar el driver
+  - NO MODIFICAR NADA MÁS
+
+3. Abrir una terminal de comandos, posicionarte en la carpeta api-dwb y ejecutar el comando: java -jar dwf-api-2.0.1.jar
+
+4. La carpeta postman-dwb contiene peticiones a los endpoints disponibles de la API. Una vez ejecutada, puedes consultar su documentación swagger en http://localhost:8080/swagger-ui.html
+
+Adicionalmente, puedes consultar APIs públicas disponibles en internet https://github.com/public-apis/public-apis, como la API que tiene un endpoint que te da imagenes de gatos https://api.thecatapi.com/v1/images/search
